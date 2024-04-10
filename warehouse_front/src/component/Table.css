@@ -1,0 +1,114 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  min-width: 32px;
+  height: 32px;
+  border: 1px solid #dfdee9;
+  text-align: left;
+}
+
+.table th {
+  background-color: #c4c4c4;
+  user-select: none;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #eeedf5;
+}
+
+.table tbody tr:hover {
+  background-color: #dfdee9;
+}
+
+.sortArrow {
+  float: right
+}
+
+td.itemDetails {
+  height: 64px;
+  background-color: #ebebeb;
+  white-space: pre-line;
+}
+
+.updateForm {
+  padding: 20px;
+  width: 600px;
+  line-height: 200%;
+}
+
+
+.updateForm input, 
+.updateForm select {
+  width: 300px;
+  float: right;
+}
+
+.updateForm textarea {
+  float: right;
+  width: 300px;
+  resize: none;
+}
+
+.orderForm {
+  padding: 20px;
+  width: 50%;
+  line-height: 200%;
+}
+.orderForm input, 
+.orderForm select {
+  width: 300px;
+  float: right;
+}
+
+.orderForm textarea {
+  float: right;
+  width: 300px;
+  resize: none;
+}
+
+
+.multilineInput {
+  height: 100px;
+}
+
+.itemDetails {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  width: 60%;
+  background-color: #f9f9f9;
+}
+.itemDetails table td{
+  padding: 4px;
+  width:max-content;
+}
+
+button {
+  background-color: #007bff; 
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  margin: 4px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; 
+}
+
+textarea {
+  resize: none;
+}

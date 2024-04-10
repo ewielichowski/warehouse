@@ -1,0 +1,31 @@
+/* PageSelection Styles */
+.pageSelector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pageSelector button {
+  background-color: #333; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 8px 16px;
+  margin: 0 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pageSelector button:hover {
+  background-color: #000000; /* Button background color on hover */
+}
+
+.pageSelector button:disabled {
+  background-color: #ccc; /* Disabled button background color */
+  cursor: not-allowed;
+}
+
+.pageSelector span {
+  margin: 0 10px;
+  font-weight: bold;
+}
